@@ -1,6 +1,12 @@
 source 'https://rubygems.org'
 
+gem 'foundation-rails'
 
+gem "haml-rails", "~> 0.9"
+
+gem 'httparty'
+
+gem 'pry-rails', group: :development
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.0'
 # Use postgresql as the database for Active Record

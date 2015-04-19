@@ -1,0 +1,6 @@
+<a class= "button" data-dropdown="drop1" aria-controls="drop1" aria-expanded="false">Bus Routes</a>
+<ul id="drop1" class="f-dropdown" data-dropdown-content aria-hidden="true" tabindex="-1">
+  <% @routes.each do |route| %>
+    <li><%= link_to route.display_name, route_path(route) %></li>
+  <% end %>
+</ul>
