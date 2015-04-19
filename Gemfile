@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem "haml-rails", "~> 0.9"
+
 gem 'httparty'
 
 gem 'pry-rails', group: :development
