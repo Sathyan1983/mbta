@@ -10,6 +10,5 @@ class RoutesController < ApplicationController
       marker.lat bus['lat']
       marker.lng bus['lon']
     end
-    binding.pry
   end
 end
