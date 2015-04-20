@@ -1,5 +1,9 @@
 source 'https://rubygems.org'
 
+gem 'underscore-rails'
+
+gem 'gmaps4rails'
+
 gem 'foundation-rails'
 
 gem "haml-rails", "~> 0.9"
