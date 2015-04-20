@@ -1,5 +1,7 @@
 source 'https://rubygems.org'
 
+gem 'rails_12factor', group: :production
+
 gem 'underscore-rails'
 
 gem 'gmaps4rails'
