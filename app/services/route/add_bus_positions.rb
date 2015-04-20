@@ -1,5 +1,5 @@
 class Route
-  class GetBusPositions
+  class AddBusPositions
     include HTTParty
 
     attr_reader :route
