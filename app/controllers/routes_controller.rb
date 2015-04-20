@@ -5,6 +5,8 @@ class RoutesController < ApplicationController
 
   def show
     route = Route.find(params[:id])
-    @route = Route::SetBusMarkers.call(route)
+    @route = Route::GetBusPositions.call(route)
+    #@hash = Gmaps4rails.build_markers(@route.markers) do |bus, marker|
+    binding.pry
   end
 end
