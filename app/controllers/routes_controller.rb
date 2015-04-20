@@ -6,6 +6,5 @@ class RoutesController < ApplicationController
   def show
     route = Route.find(params[:id])
     @route = Route::SetBusMarkers.call(route)
-    binding.pry
   end
 end
